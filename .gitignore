@@ -1,0 +1,11 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+src/inputs/vw-vid-collage.csv
+
+# Virtual environments
+.venv
