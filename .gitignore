@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 src/inputs/vw-vid-collage.csv
+outputs/
 
 # Virtual environments
 .venv

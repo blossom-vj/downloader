@@ -10,7 +10,7 @@ def get_best_content(link, timestamp = "*00:00-inf"):
     # Example yt-dlp command
     subprocess.run(['yt-dlp', f'{link}', 
                     "-f", "bv*+ba/b", # Best audio, best video where available
-                    "-o", "dist/outputs/%(title)s.%(ext)s",
+                    "-o", "outputs/%(title)s.%(ext)s",
                     "-S", "vcodec:h264,res,acodec:m4a", # deprioritize webm formats
                     "--download-sections", f"{timestamp}"])
 

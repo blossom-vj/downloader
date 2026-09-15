@@ -9,7 +9,7 @@ def get_mp4(link, timestamp = "*00:00-inf"):
     # Example yt-dlp command
     subprocess.run(['yt-dlp', f'{link}', 
                     "-f", "mp4",
-                    "-o", "src/outputs/%(title)s.%(ext)s",
+                    "-o", "outputs/%(title)s.%(ext)s",
                     "--download-sections", f"{timestamp}"])
 
     return
