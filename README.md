@@ -23,7 +23,7 @@ git clone https://github.com/blossom-vj/downloader
 # Step 2: navigate to downloader
 cd downloader
 
-# Step 3: sync environment
+# Step 3: sync environment from .toml file
 uv sync
 
 # Step 4: activate environment
