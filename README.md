@@ -1,12 +1,12 @@
 # downloader
 This project allows a user to input a list of videos and loop through them with `yt-dlp` using a `.csv` input file.
 
-Example:
+Example acceptable input:
 
 | link                                        | start | end  | note                                              |
 |---------------------------------------------|-------|------|---------------------------------------------------|
 | https://www.youtube.com/watch?v=VvqOvToCoi8 | 0:00  | 0:23 | Heather happy birthday                            |
-| https://www.youtube.com/watch?v=9q9SNspy2FU | :25   |      | Baby monkey riding backwards on a pig baby monkey |
+| https://www.youtube.com/watch?v=9q9SNspy2FU | 0:25   |      | Baby monkey riding backwards on a pig baby monkey |
 | https://www.youtube.com/watch?v=IEpHswmkisQ |       |      | Balegdeh                                          |
 
 This should work for any site that is compatible with `yt-dlp`.
