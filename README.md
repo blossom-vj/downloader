@@ -8,6 +8,7 @@ Example acceptable input:
 | https://www.youtube.com/watch?v=VvqOvToCoi8 | 0:00  | 0:23 | Heather happy birthday                            |
 | https://www.youtube.com/watch?v=9q9SNspy2FU | 0:25   |      | Baby monkey riding backwards on a pig baby monkey |
 | https://www.youtube.com/watch?v=IEpHswmkisQ |       |      | Balegdeh                                          |
+| https://www.youtube.com/watch?v=a56T2llZf_k |       |      | 1 hour of silence occasionally interrupted by Pikman |
 
 This should work for any site that is compatible with `yt-dlp`.
 
